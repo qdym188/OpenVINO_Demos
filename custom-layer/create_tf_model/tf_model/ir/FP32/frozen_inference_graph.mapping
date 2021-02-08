@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="ModZeroOut/Convolution_1/conv_biases/read" out_port_id="0"/>
+		<IR id="9" name="ModZeroOut/Convolution_1/conv_biases/read/EltwiseUnsqueeze1053_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_4/Conv2D" out_port_id="0"/>
+		<IR id="27" name="ModZeroOut/Convolution_4/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/cosh_2/Cosh" out_port_id="0"/>
+		<IR id="25" name="ModZeroOut/cosh_2/Cosh" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_3/conv_weights/read" out_port_id="0"/>
+		<IR id="19" name="ModZeroOut/Convolution_3/Conv2D/Transpose1506_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_2/Relu6" out_port_id="0"/>
+		<IR id="18" name="ModZeroOut/Activation_2/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_5/conv_biases/read" out_port_id="0"/>
+		<IR id="33" name="ModZeroOut/Convolution_5/conv_biases/read/EltwiseUnsqueeze1069_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_3/conv_biases/read" out_port_id="0"/>
+		<IR id="21" name="ModZeroOut/Convolution_3/conv_biases/read/EltwiseUnsqueeze1061_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation/Relu6" out_port_id="0"/>
+		<IR id="6" name="ModZeroOut/Activation/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution/conv_weights/read" out_port_id="0"/>
+		<IR id="2" name="ModZeroOut/Convolution/Conv2D/Transpose1494_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Pooling_1/MaxPool2d" out_port_id="0"/>
+		<IR id="24" name="ModZeroOut/Pooling_1/MaxPool2d" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_2/conv_biases/read" out_port_id="0"/>
+		<IR id="16" name="ModZeroOut/Convolution_2/conv_biases/read/EltwiseUnsqueeze1057_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_2/MatMul" out_port_id="0"/>
+		<IR id="57" name="ModZeroOut/Dense_2/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution/conv_biases/read" out_port_id="0"/>
+		<IR id="4" name="ModZeroOut/Convolution/conv_biases/read/EltwiseUnsqueeze1049_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_6/Sigmoid" out_port_id="0"/>
+		<IR id="50" name="ModZeroOut/Activation_6/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_2/dense_weights/read" out_port_id="0"/>
+		<IR id="56" name="ModZeroOut/Dense_2/MatMul/1_port_transpose1682_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution/Conv2D" out_port_id="0"/>
+		<IR id="3" name="ModZeroOut/Convolution/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_1/conv_weights/read" out_port_id="0"/>
+		<IR id="7" name="ModZeroOut/Convolution_1/Conv2D/Transpose1498_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_3/Conv2D" out_port_id="0"/>
+		<IR id="20" name="ModZeroOut/Convolution_3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense/MatMul" out_port_id="0"/>
+		<IR id="47" name="ModZeroOut/Dense/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_2/Variable/read" out_port_id="0"/>
+		<IR id="58" name="ModZeroOut/Dense_2/Variable/read/EltwiseUnsqueeze1081_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_5/conv_weights/read" out_port_id="0"/>
+		<IR id="31" name="ModZeroOut/Convolution_5/Conv2D/Transpose1514_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_5/Relu6" out_port_id="0"/>
+		<IR id="35" name="ModZeroOut/Activation_5/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_1/dense_weights/read" out_port_id="0"/>
+		<IR id="51" name="ModZeroOut/Dense_1/MatMul/1_port_transpose1678_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense/add" out_port_id="0"/>
+		<IR id="49" name="ModZeroOut/Dense/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_7/Sigmoid" out_port_id="0"/>
+		<IR id="55" name="ModZeroOut/Activation_7/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_1/MatMul" out_port_id="0"/>
+		<IR id="52" name="ModZeroOut/Dense_1/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_8/softmax_output" out_port_id="0"/>
+		<IR id="60" name="ModZeroOut/Activation_8/softmax_output" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense/Variable/read" out_port_id="0"/>
+		<IR id="48" name="ModZeroOut/Dense/Variable/read/EltwiseUnsqueeze1073_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_1/add" out_port_id="0"/>
+		<IR id="54" name="ModZeroOut/Dense_1/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_2/add" out_port_id="0"/>
+		<IR id="59" name="ModZeroOut/Dense_2/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Flatten/Reshape" out_port_id="0"/>
+		<IR id="46" name="ModZeroOut/Flatten/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/cosh/Cosh" out_port_id="0"/>
+		<IR id="1" name="ModZeroOut/cosh/Cosh" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_4/conv_weights/read" out_port_id="0"/>
+		<IR id="26" name="ModZeroOut/Convolution_4/Conv2D/Transpose1510_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_3/Relu6" out_port_id="0"/>
+		<IR id="23" name="ModZeroOut/Activation_3/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_2/Conv2D" out_port_id="0"/>
+		<IR id="15" name="ModZeroOut/Convolution_2/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_5/Conv2D" out_port_id="0"/>
+		<IR id="32" name="ModZeroOut/Convolution_5/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense_1/Variable/read" out_port_id="0"/>
+		<IR id="53" name="ModZeroOut/Dense_1/Variable/read/EltwiseUnsqueeze1077_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Flatten/Reshape/shape" out_port_id="0"/>
+		<IR id="45" name="ModZeroOut/Dense/dense_weights/read/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_2/conv_weights/read" out_port_id="0"/>
+		<IR id="14" name="ModZeroOut/Convolution_2/Conv2D/Transpose1502_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_1/Relu6" out_port_id="0"/>
+		<IR id="11" name="ModZeroOut/Activation_1/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Pooling_2/MaxPool2d" out_port_id="0"/>
+		<IR id="38" name="ModZeroOut/Pooling_2/MaxPool2d/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_4/conv_biases/read" out_port_id="0"/>
+		<IR id="28" name="ModZeroOut/Convolution_4/conv_biases/read/EltwiseUnsqueeze1065_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Zeroout/zero_out" out_port_id="0"/>
+		<IR id="61" name="ModZeroOut/Zeroout/zero_out" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Input/Inputs" out_port_id="0"/>
+		<IR id="0" name="Input/Inputs" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Convolution_1/Conv2D" out_port_id="0"/>
+		<IR id="8" name="ModZeroOut/Convolution_1/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/cosh_1/Cosh" out_port_id="0"/>
+		<IR id="13" name="ModZeroOut/cosh_1/Cosh" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Dense/dense_weights/read" out_port_id="0"/>
+		<IR id="40" name="ModZeroOut/Dense/MatMul/1_port_transpose1686_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Pooling/MaxPool2d" out_port_id="0"/>
+		<IR id="12" name="ModZeroOut/Pooling/MaxPool2d" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="ModZeroOut/Activation_4/Relu6" out_port_id="0"/>
+		<IR id="30" name="ModZeroOut/Activation_4/Relu6" out_port_id="1"/>
+	</map>
+</mapping>
